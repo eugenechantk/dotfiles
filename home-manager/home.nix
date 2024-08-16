@@ -70,8 +70,8 @@ let
 
   '';
 in {
-  home.username = "jldadriano";
-  home.homeDirectory = "/Users/jldadriano";
+  home.username = "eugenechan";
+  home.homeDirectory = "/Users/eugenechan";
   home.stateVersion = "24.05";
 
   home.packages = [
@@ -82,6 +82,19 @@ in {
     pkgs.btop
     pkgs.neovim
     pkgs.tmux
+    pkgs.python3
+    pkgs.python3Packages.pip
+    pkgs.python3Packages.virtualenv
+    pkgs.k9s
+    pkgs.docker
+    pkgs.nodejs
+    pkgs.nodePackages_latest.vercel
+    pkgs.pnpm
+    pkgs.gh
+    pkgs.spotify
+    pkgs.postman
+    pkgs.nixfmt
+    pkgs.magic-wormhole-rs
   ];
   programs.home-manager.enable = true;
 
@@ -93,7 +106,7 @@ in {
 
     shellAliases = {
       "reload-home-manager" =
-        "zsh -c 'cd ~/projs/configs/home-manager && nix --extra-experimental-features nix-command --extra-experimental-features flakes run home-manager/release-24.05 -- switch --flake ~/projs/configs/home-manager#home --extra-experimental-features nix-command --extra-experimental-features flakes' && zsh";
+        "zsh -c 'cd ~/dev/dotfiles/home-manager && nix --extra-experimental-features nix-command --extra-experimental-features flakes run home-manager/release-24.05 -- switch --flake ~/dev/dotfiles/home-manager#home --extra-experimental-features nix-command --extra-experimental-features flakes' && zsh";
     };
     oh-my-zsh = { enable = true; };
   };
@@ -122,8 +135,8 @@ in {
   };
   programs.git = {
     enable = true;
-    userName = "<Your username>";
-    userEmail = "<Your email>";
+    userName = "eugenechantk";
+    userEmail = "me@eugenechantk.me";
     extraConfig = { push = { autoSetupRemote = true; }; };
   };
   programs.direnv = {

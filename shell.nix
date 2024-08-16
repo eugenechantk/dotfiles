@@ -5,4 +5,4 @@ let
     overlays = [ ];
   };
 
-in pkgs.mkShellNoCC { packages = with pkgs; [ coreutils nixfmt ]; }
+in pkgs.mkShellNoCC { packages = with pkgs; [  ]; }
