@@ -95,6 +95,8 @@ in {
     pkgs.postman
     pkgs.nixfmt
     pkgs.magic-wormhole-rs
+    pkgs.lens
+    pkgs.awscli
   ];
   programs.home-manager.enable = true;
 

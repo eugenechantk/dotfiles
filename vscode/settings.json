@@ -3,6 +3,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
-  "git.verboseCommit": true,
-  "git.rebaseWhenSync": true
+  "git.rebaseWhenSync": true,
+  "git.verboseCommit": true
 }
