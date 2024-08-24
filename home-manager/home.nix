@@ -82,9 +82,6 @@ in {
     pkgs.btop
     pkgs.neovim
     pkgs.tmux
-    pkgs.python3
-    pkgs.python3Packages.pip
-    pkgs.python3Packages.virtualenv
     pkgs.k9s
     pkgs.docker
     pkgs.nodejs
@@ -97,6 +94,8 @@ in {
     pkgs.magic-wormhole-rs
     pkgs.lens
     pkgs.awscli
+    pkgs.docker-client
+    pkgs.pipx
   ];
   programs.home-manager.enable = true;
 

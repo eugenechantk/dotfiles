@@ -4,5 +4,7 @@
   "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
   "git.rebaseWhenSync": true,
-  "git.verboseCommit": true
+  "git.verboseCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
