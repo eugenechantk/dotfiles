@@ -1,10 +1,17 @@
 {
   "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "eslint.autoFixOnSave": "always",
+    "source.organizeImports": "always"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "git.openRepositoryInParentFolders": "never",
   "git.rebaseWhenSync": true,
+  "git.replaceTagsWhenPull": true,
   "git.verboseCommit": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "terminal.integrated.scrollback": 20000,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "python.terminal.activateEnvironment": false
 }
